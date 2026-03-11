@@ -1,0 +1,20 @@
+# ==========================================
+# Kaggle Environment Export
+# Python Version: 3.12.12
+# ==========================================
+
+# 1. 核心数据处理与矩阵运算
+pandas==2.3.3
+numpy==2.0.2
+
+# 2. 深度学习底层框架
+# ⚠️ 强烈建议：去 PyTorch 官网 (pytorch.org) 获取对应你本地显卡 CUDA 的安装命令
+# 因此这里将 Kaggle 环境下的 torch 版本故意注释掉，防止本地 pip 默认误装 CPU 版本
+# torch==2.9.0  # <-- 已被安全注释！请手动安装 GPU 版
+
+# 3. Hugging Face 预训练模型生态
+transformers==5.2.0
+
+# 4. 辅助工具与比赛专属评估指标
+tqdm==4.67.1
+sacrebleu==2.6.0

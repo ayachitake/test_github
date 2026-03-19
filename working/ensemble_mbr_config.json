@@ -1,0 +1,30 @@
+{
+  "model_a": "d:/03_Development/translate_akkadian/input/datasets/assiaben/byt5-akkadian-optimized-34x",
+  "model_b": "d:/03_Development/translate_akkadian/input/models/mattiaangeli/byt5-akkadian-mbr-v2-pytorch-default-v1",
+  "num_beam_cands": 4,
+  "num_beams": 8,
+  "length_penalty": 1.3,
+  "repetition_penalty": 1.2,
+  "use_diverse_beam": false,
+  "num_diverse_cands": 4,
+  "num_diverse_beams": 8,
+  "num_beam_groups": 4,
+  "diversity_penalty": 0.8,
+  "use_sampling": true,
+  "sample_temperatures": [
+    0.6,
+    0.8,
+    1.05
+  ],
+  "num_sample_per_temp": 2,
+  "num_sample_cands": 6,
+  "mbr_top_p": 0.92,
+  "mbr_w_chrf": 0.55,
+  "mbr_w_bleu": 0.25,
+  "mbr_w_jaccard": 0.2,
+  "mbr_w_length": 0.1,
+  "mbr_pool_cap": 32,
+  "max_new_tokens": 384,
+  "use_bf16_amp": true,
+  "batch_size": 1
+}

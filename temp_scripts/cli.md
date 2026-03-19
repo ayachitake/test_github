@@ -1,0 +1,1 @@
+conda activate translate_akkadian; python d:/03_Development/translate_akkadian/ensemble_mbr_inference.py
